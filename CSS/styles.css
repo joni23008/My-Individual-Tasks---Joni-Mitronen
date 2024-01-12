@@ -1,0 +1,97 @@
+body{
+background-color: rgb(54, 54, 54);
+color: rgb(255, 247, 247);
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: #ff0000;
+    margin: 0;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header{
+color: rgb(255, 255, 255);
+background-color: rgb(63, 63, 63);
+font-size: x-large;
+text-decoration: dotted;
+padding-left: 5cm;
+}
+
+nav{
+background-color: rgb(38, 38, 38);
+padding: 1cm;
+
+
+
+}
+
+nav ul{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+.top-menu li{
+display: inline-block;
+margin-right: 20px;
+
+}
+.top-menu a{
+  
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+.top-menu a:hover{
+color: rgb(255, 0, 0);
+
+}
+img{
+    max-width: fit-content;
+    border-color: rgb(0, 0, 0);
+    border-width: 2cm;
+    border-radius: 5cm;
+
+}
+
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+#main-header{
+text-align: center;
+background-color: grey;
+padding: 20px;
+
+}
+
+p{
+font-size: 16px;
+margin-top: 10px;
+}
+
+.content-article{
+    background-color: black;
+    border:1px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
