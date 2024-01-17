@@ -18,16 +18,47 @@ h1{
 header{
 color: rgb(255, 255, 255);
 background-color: rgb(63, 63, 63);
+margin: auto;
 font-size: x-large;
 text-decoration: dotted;
-padding-left: 5cm;
+text-align: center;
 }
 
+aside{
+    background-color: rgb(255, 95, 95);
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    flex-direction: column;   
+}
+.big-headline{
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.main-content-articles{
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+    background-color:rgb(119, 49, 49);
+    
+
+}
+main{
+    display: flex;
+    
+}
+.different{
+    flex-direction: column;
+    flex: 5;
+
+}
 nav{
 background-color: rgb(38, 38, 38);
 padding: 1cm;
-
-
 
 }
 
@@ -35,8 +66,12 @@ nav ul{
 list-style: none;
 margin: 0;
 padding: 0;
-
 }
+.navbar-brand{
+    background-color: rgb(255, 0, 0);
+    
+}
+
 .top-menu li{
 display: inline-block;
 margin-right: 20px;
@@ -91,7 +126,11 @@ margin-top: 10px;
 }
 
 h2{
-    color: #333;
+    color: #ffffff;
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+form{
+    background-color: #ffbebe;
 }
